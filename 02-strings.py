@@ -1,0 +1,10 @@
+texto = "Hola Mundo"
+print(texto.upper())
+print(texto.lower())
+print(texto.find("Mun"))
+print(texto.find("mun"))
+print(texto.replace("Mundo", "Chanchito Feliz"))
+nuevoTexto = texto.replace("Hola Mundo", "Chanchito Feliz Oink Oink")
+print(texto,nuevoTexto)
+print(nuevoTexto)
+print("Mundo" in texto)
